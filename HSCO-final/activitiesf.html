@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<link rel="stylesheet" href="style2.css" type="text/css" media="screen" />
+
+</head>
+
+<body background="new.jpg">
+	<div id="wrap">
+		<div id="header">
+			<h1>Insert Activity</h1>
+			
+		</div>
+		
+		<form action="activities.php" method="post">
+			<ul id="contactform">
+				<li>
+					<label for="Uid">Activity Unique ID *</label>
+					<span class="fieldbox"><input type="text" name="id" /></span>
+				</li>	
+				<li>
+					<label for="name">Name*</label>
+					<span class="fieldbox"><input type="text" name="Name" /></span>
+				</li>
+				<li>
+					<label for="Date">Date*</label>
+					<span class="fieldbox"><input type="text" name="Date" /></span>
+				</li>
+				<li>
+					<label for="location">Location</label>
+					<span class="fieldbox"><input type="text" name="Location" /></span>
+				</li>
+				<li>
+					<label for="impacted">Impact on</label>
+					<span class="fieldbox"><input type="text" name="Impacted" /></span>
+				</li>
+				<li>
+					<label for="domain">Domain</label>
+					<span class="fieldbox"><input type="text" name="Domain" /></span>
+				</li>
+				
+			</ul>
+			
+			<p>required field*</p>
+			<input type="submit" value="Send" id="sendbutton" name="sendbutton"/>
+		</form>
+
+	</div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<html>
+<head>
+<?php
+setcookie("cookuser",'$_POST[username]');
+?>
+<h1> Check the Privileges you want to give </h1>
+<form action="grant_priv.php" method="post">
+<input type="radio" name="insert" value="insert">Insert</br>
+<input type="radio" name="delete" value="delete">Delete</br>
+<input type="radio" name="update" value="update">Update</br>
+<input type="radio" name="view" value="view">View</br>
+<input type="submit" name="submit" value="submit"> </br>
+</form>
+</head>
+</html>
